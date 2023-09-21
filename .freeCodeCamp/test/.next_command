@@ -76,3 +76,32 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 ./student_info.sh
 ./student_info.sh
 ./student_info.sh
+git init
+git status
+git show
+git status
+dit -diff
+git -diff
+git --diff
+diff --git
+git diff-tree --nocommit-id --name-only -r
+git diff-tree --nocommit-id --name-only 9e67db8 -r
+git diff-tree
+git show --stat --oneline HEAD
+git show --stat --oneline 91027b6
+git show --stat --oneline HEAD^^..HEAD
+git status
+git add "*.sh", "*.sql"
+git add student_info.sh, students.sql
+git add student_info.sh
+git add students.sql
+git status
+git add -A
+git status
+git rm --cached .freeCodeCamp/test/.cwd
+git status
+git rm --cached .freeCodeCamp/test/.cwd -f
+git rm --cached .freeCodeCamp/test/.next_command -f
+git status
+git pull origin main --allow-unrelated-histories
+git stash push --include-untracked
